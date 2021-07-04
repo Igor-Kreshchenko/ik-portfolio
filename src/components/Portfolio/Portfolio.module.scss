@@ -1,0 +1,12 @@
+@import '../../styles/shared.scss';
+
+.list {
+  @extend %list;
+}
+
+@media screen and (min-width: $desktop) {
+  .list {
+    display: flex;
+    justify-content: space-between;
+  }
+}

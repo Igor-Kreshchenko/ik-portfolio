@@ -1,0 +1,8 @@
+@import '../../styles/shared.scss';
+
+@media screen and (min-width: $desktop) {
+  .wrapper {
+    display: flex;
+    justify-content: space-around;
+  }
+}

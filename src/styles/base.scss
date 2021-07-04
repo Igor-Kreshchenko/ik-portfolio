@@ -1,0 +1,38 @@
+@import './shared.scss';
+
+body {
+  margin: 0;
+
+  background-color: $bg-color;
+  color: $main-color;
+
+  font-family: $main-font-family;
+  font-size: 18px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: $title-color;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: $text-color;
+}
+
+a {
+  color: $link-color;
+}

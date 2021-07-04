@@ -1,0 +1,17 @@
+@import '../../styles/shared.scss';
+
+.contactsWrapper {
+  text-align: start;
+}
+
+.contact {
+  color: $title-color;
+}
+
+.contact:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.contactInfo {
+  color: $text-color;
+}

@@ -1,0 +1,28 @@
+@import '../../../styles/shared.scss';
+
+.skillBox:not(:last-child) {
+  margin-bottom: 25px;
+}
+
+.title {
+  margin-bottom: 20px;
+  color: $accent-color;
+}
+
+.list {
+  @extend %list;
+}
+
+.listItem:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: $desktop) {
+  .title {
+    font-size: 24px;
+  }
+
+  .listItem {
+    font-size: 24px;
+  }
+}
