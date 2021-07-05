@@ -1,21 +1,29 @@
 [{
-    "title": "Web studio",
+    "title": "Web-studio",
     "description": "Academic project",
-    "link": "https://github.com/Igor-Kreshchenko/web-studio",
-    "techList": ["Html", "Sass", "JS"]
+    "siteLink": "https://igor-kreshchenko.github.io/web-studio/",
+    "preview": "./portfolio-images/web-studio.png",
+    "gitLink": "https://github.com/Igor-Kreshchenko/web-studio",
+    "techList": ["Html", "SCSS", "JS"]
 },{
-    "title": "Web studio",
+    "title": "Ice-cream",
     "description": "Academic project",
-    "link": "https://github.com/Igor-Kreshchenko/web-studio",
-    "techList": ["Html", "Sass", "JS"]
+    "siteLink": "https://igor-kreshchenko.github.io/ice-cream-project/",
+    "preview": "./portfolio-images/ice-cream.png",
+    "gitLink": "https://github.com/Igor-Kreshchenko/ice-cream-project",
+    "techList": ["Html", "SCSS", "JS"]
 },{
-    "title": "Web studio",
+    "title": "Event Booster",
     "description": "Academic project",
-    "link": "https://github.com/Igor-Kreshchenko/web-studio",
-    "techList": ["Html", "Sass", "JS"]
+    "siteLink": "https://igor-kreshchenko.github.io/event-booster/",
+    "preview": "./portfolio-images/event-booster.png",
+    "gitLink": "https://github.com/Igor-Kreshchenko/event-booster",
+    "techList": ["Html", "SCSS", "JS"]
 },{
-    "title": "Web studio",
+    "title": "Phonebook",
     "description": "Academic project",
-    "link": "https://github.com/Igor-Kreshchenko/web-studio",
+    "siteLink": "https://app.netlify.com/sites/ik-phonebook-app/overview",
+    "preview": "./portfolio-images/phonebook.png",
+    "gitLink": "https://github.com/Igor-Kreshchenko/goit-react-hw-09-phonebook",
     "techList": ["Html", "Sass", "JS"]
 }]

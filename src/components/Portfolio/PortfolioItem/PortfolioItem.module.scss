@@ -9,9 +9,16 @@
   align-items: center;
   justify-content: center;
   height: 100%;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   border: 1px solid $title-color;
-  border-radius: 5px;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    transform: scale(1.05);
+  }
 }
 
 .title {
@@ -22,11 +29,22 @@
   margin-bottom: 10px;
 }
 
+.gitLink {
+  margin-bottom: 10px;
+}
+
 .techList {
   @extend %list;
 
   display: flex;
   justify-content: center;
+}
+
+.techListItem {
+  padding: 5px 10px;
+  background-color: $title-color;
+  color: $bg-color;
+  font-weight: 700;
 }
 
 .techListItem:not(:last-child) {
@@ -40,7 +58,7 @@
   }
 
   .item:not(:last-child) {
-    margin-right: 10px;
+    margin-right: 20px;
     margin-bottom: 0;
   }
 }
