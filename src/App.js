@@ -1,7 +1,7 @@
 import React from 'react';
 import Container from './components/Container';
 import Section from './components/Section';
-import Navbar from './components/Navbar';
+import Header from './components/Header';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
 import Skills from './components/Skills/Skills';
@@ -13,7 +13,7 @@ import GoTopButton from './components/GoTopButton';
 function App() {
   return (
     <>
-      <Navbar />
+      <Header />
 
       <Container>
         <Section id="about">

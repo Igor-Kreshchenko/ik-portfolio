@@ -18,7 +18,7 @@ const PortfolioItem = ({
         target="_blank"
         rel="noreferrer noopener"
       >
-        <img src={preview} alt="" />
+        <img src={preview} alt="project preview" />
       </a>
       <h3 className={styles.title}>&#123; {title} &#125;</h3>
       <p className={styles.description}>{description}</p>

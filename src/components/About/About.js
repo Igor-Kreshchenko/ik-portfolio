@@ -7,7 +7,7 @@ const About = () => {
     <div className={styles.aboutWrapper}>
       <div>
         <div className={styles.imgWrapper}>
-          <img className={styles.avatar} src={avatar} alt="" />
+          <img className={styles.avatar} src={avatar} alt="avatar" />
         </div>
         <h1 className={styles.name}>Igor_Kreshchenko</h1>
         <p className={styles.position}>.front-end .developer</p>
