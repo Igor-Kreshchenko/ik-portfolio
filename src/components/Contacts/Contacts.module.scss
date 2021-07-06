@@ -4,14 +4,53 @@
   text-align: start;
 }
 
-.contact {
-  color: $title-color;
+.contactList {
+  @extend %list;
+
+  margin-bottom: 50px;
 }
 
 .contact:not(:last-child) {
   margin-bottom: 10px;
 }
 
+.contactText {
+  color: $title-color;
+}
+
 .contactInfo {
   color: $text-color;
+}
+
+.socialList {
+  @extend %list;
+
+  display: flex;
+  justify-content: center;
+}
+
+.socialItem:not(:last-child) {
+  margin-right: 25px;
+}
+
+.socialIcon {
+  fill: $title-color;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.socialIcon:hover,
+.socialIcon:focus {
+  fill: $accent-color;
+}
+
+@media screen and (min-width: $desktop) {
+  .contactsWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .contactList {
+    margin-bottom: 0;
+  }
 }

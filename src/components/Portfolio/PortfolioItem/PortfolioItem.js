@@ -22,7 +22,12 @@ const PortfolioItem = ({
       </a>
       <h3 className={styles.title}>&#123; {title} &#125;</h3>
       <p className={styles.description}>{description}</p>
-      <a className={styles.gitLink} href={gitLink}>
+      <a
+        className={styles.gitLink}
+        href={gitLink}
+        target="_blank"
+        rel="noreferrer noopener"
+      >
         Watch on GitHub
       </a>
       <ul className={styles.techList}>

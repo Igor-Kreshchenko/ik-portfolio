@@ -1,0 +1,14 @@
+@import '../../styles/shared.scss';
+
+.goTopBtn {
+  position: fixed;
+  right: 30px;
+  bottom: 20px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  fill: $title-color;
+  cursor: pointer;
+  border-radius: 50%;
+}
