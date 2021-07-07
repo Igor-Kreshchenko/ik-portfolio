@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { v4 as uuidv4 } from 'uuid';
 import styles from './PortfolioItem.module.scss';
 
@@ -46,3 +47,12 @@ const PortfolioItem = ({
 };
 
 export default PortfolioItem;
+
+PortfolioItem.propTypes = {
+  title: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
+  siteLink: PropTypes.string.isRequired,
+  preview: PropTypes.string.isRequired,
+  gitLink: PropTypes.string.isRequired,
+  techList: PropTypes.arrayOf(PropTypes.string.isRequired).isRequired,
+};

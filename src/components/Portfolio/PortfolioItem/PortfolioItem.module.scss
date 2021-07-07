@@ -1,7 +1,13 @@
 @import '../../../styles/shared.scss';
 
-.item:not(:last-child) {
+.item {
   margin-bottom: 50px;
+
+  &:last-child {
+    @media screen and(max-width: 1279px) {
+      margin-bottom: 0;
+    }
+  }
 }
 
 .link {
@@ -56,10 +62,7 @@
   .item {
     display: flex;
     flex-direction: column;
-  }
-
-  .item:not(:last-child) {
-    margin-right: 20px;
-    margin-bottom: 0;
+    width: calc((100% - 120px) / 4);
+    margin: 15px;
   }
 }

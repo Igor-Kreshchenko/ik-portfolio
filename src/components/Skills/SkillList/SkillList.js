@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { v4 as uuidv4 } from 'uuid';
 import styles from './SkillList.module.scss';
 
@@ -22,3 +23,8 @@ const SkillList = ({ title, items }) => {
 };
 
 export default SkillList;
+
+SkillList.propTypes = {
+  title: PropTypes.string.isRequired,
+  items: PropTypes.arrayOf(PropTypes.string.isRequired).isRequired,
+};

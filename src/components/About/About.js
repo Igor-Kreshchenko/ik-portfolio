@@ -11,6 +11,7 @@ const About = () => {
         </div>
         <h1 className={styles.name}>Igor_Kreshchenko</h1>
         <p className={styles.position}>.front-end .developer</p>
+        <p className={styles.address}>Odessa, Ukraine</p>
       </div>
 
       <p className={styles.text}>

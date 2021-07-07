@@ -10,7 +10,7 @@ const Footer = () => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        Watch source files
+        Watch this project on GitHub
       </a>
       <p className={styles.text}>2021</p>
     </footer>

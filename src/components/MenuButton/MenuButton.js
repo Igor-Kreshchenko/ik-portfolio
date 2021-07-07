@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import styles from './MenuButton.module.scss';
 
 const MenuButton = ({ isNav, onClick }) => {
@@ -18,3 +19,8 @@ const MenuButton = ({ isNav, onClick }) => {
 };
 
 export default MenuButton;
+
+MenuButton.propTypes = {
+  isNav: PropTypes.bool.isRequired,
+  onClick: PropTypes.func.isRequired,
+};

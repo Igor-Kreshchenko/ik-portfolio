@@ -20,6 +20,11 @@
   cursor: pointer;
 }
 
+.navLink:hover,
+.navLink:focus {
+  color: $accent-color;
+}
+
 .navLink:not(:last-child) {
   margin-bottom: 20px;
 }

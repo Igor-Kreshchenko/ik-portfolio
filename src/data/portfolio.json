@@ -26,4 +26,18 @@
     "preview": "./portfolio-images/phonebook.png",
     "gitLink": "https://github.com/Igor-Kreshchenko/goit-react-hw-09-phonebook",
     "techList": ["Html", "Sass", "JS"]
+},{
+    "title": "Phonebook",
+    "description": "Academic project",
+    "siteLink": "https://app.netlify.com/sites/ik-phonebook-app/overview",
+    "preview": "./portfolio-images/phonebook.png",
+    "gitLink": "https://github.com/Igor-Kreshchenko/goit-react-hw-09-phonebook",
+    "techList": ["Html", "Sass", "JS"]
+},{
+    "title": "Phonebook",
+    "description": "Academic project",
+    "siteLink": "https://app.netlify.com/sites/ik-phonebook-app/overview",
+    "preview": "./portfolio-images/phonebook.png",
+    "gitLink": "https://github.com/Igor-Kreshchenko/goit-react-hw-09-phonebook",
+    "techList": ["Html", "Sass", "JS"]
 }]

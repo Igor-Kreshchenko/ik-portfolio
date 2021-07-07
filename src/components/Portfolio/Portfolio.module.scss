@@ -7,6 +7,7 @@
 @media screen and (min-width: $desktop) {
   .list {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: -15px;
   }
 }
