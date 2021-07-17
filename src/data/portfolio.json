@@ -4,7 +4,7 @@
     "siteLink": "https://igor-kreshchenko.github.io/web-studio/",
     "preview": "./portfolio-images/web-studio.png",
     "gitLink": "https://github.com/Igor-Kreshchenko/web-studio",
-    "techList": ["Html", "SCSS", "JS"]
+    "techList": ["Html", "SCSS"]
 },{
     "title": "Ice-cream",
     "description": "Academic project",
@@ -18,21 +18,7 @@
     "siteLink": "https://igor-kreshchenko.github.io/event-booster/",
     "preview": "./portfolio-images/event-booster.png",
     "gitLink": "https://github.com/Igor-Kreshchenko/event-booster",
-    "techList": ["Html", "SCSS", "JS"]
-},{
-    "title": "Phonebook",
-    "description": "Academic project",
-    "siteLink": "https://app.netlify.com/sites/ik-phonebook-app/overview",
-    "preview": "./portfolio-images/phonebook.png",
-    "gitLink": "https://github.com/Igor-Kreshchenko/goit-react-hw-09-phonebook",
-    "techList": ["Html", "Sass", "JS"]
-},{
-    "title": "Phonebook",
-    "description": "Academic project",
-    "siteLink": "https://app.netlify.com/sites/ik-phonebook-app/overview",
-    "preview": "./portfolio-images/phonebook.png",
-    "gitLink": "https://github.com/Igor-Kreshchenko/goit-react-hw-09-phonebook",
-    "techList": ["Html", "Sass", "JS"]
+    "techList": ["Html", "SCSS", "JS", "Handlebars", "CRUD", "Firebase"]
 },{
     "title": "Phonebook",
     "description": "Academic project",
